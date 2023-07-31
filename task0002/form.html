@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form表单</title>
+</head>
+<body>
+    <form action="">
+
+      <label for="username">
+        用户名：
+        <input type="text" placeholder="请输入用户名" id="username">
+      </label> 
+      <br>
+      <br>
+
+      <label for="password" >
+       密码：
+        <input type="password" placeholder="请输入密码" id="password" >
+      </label> 
+      <br>
+      <label for="fruit">选择喜欢的水果：</label>
+      <select id="fruit" name="fruit">
+        <optgroup label="热带水果">
+          <option value="banana">香蕉</option>
+          <option value="mango">芒果</option>
+          <option value="pineapple">菠萝</option>
+        </optgroup>
+        <optgroup label="其他水果">
+          <option value="apple">苹果</option>
+          <option value="orange">橙子</option>
+          <option value="grape">葡萄</option>
+        </optgroup>
+      </select>
+      
+      <br><br>
+     <label for="introduce">个人简介：
+   
+  <input type="text"  value="22222这里不能选中"  disabled>
+     </label>
+     <br><br>
+     <label for="introduce">个人简介：
+   
+        <input type="text"  value="这个只能读不能写"  readonly>
+           </label>
+     <br><br>
+      <input type="reset" value="重置">
+        
+      <input type="submit" value="提交">
+    </form>
+</body>
+</html>
